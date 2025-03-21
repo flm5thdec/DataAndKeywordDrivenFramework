@@ -1,0 +1,58 @@
+
+--------------------------------------------------
+Day : 21st Mar - Friday
+--------------------------------------------------
+
+
+*************************************
+Data Driven Framework
+*************************************
+
+browser start
+app launch 
+maximize 
+
+
+close browser 
+
+TestNG hiererchy :
+  @BeforeSuite    //  1 time 
+<suite   
+     @BeforeTest   // 2 times 
+	<test
+		 @BeforeClass  //16 times 
+		<classes 
+		     @BeforeMethod  //32 times 
+			<class 
+
+
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="handlings.AlertHandling"/>   
+      <class name="handlings.FrameHandling2"/>
+      <class name="handlings.FrameHandling"/>
+      <class name="handlings.MultipleWindowHandle"/>
+      <class name="handlings.MultipleWindowHandle4"/>
+      <class name="handlings.MultipleWindowHandle5"/>
+      <class name="handlings.MultipleWindowHandle2"/>
+      <class name="handlings.MultipleWindowHandle3"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="handlings.AlertHandling"/>
+      <class name="handlings.FrameHandling2"/>
+      <class name="handlings.FrameHandling"/>
+      <class name="handlings.MultipleWindowHandle"/>
+      <class name="handlings.MultipleWindowHandle4"/>
+      <class name="handlings.MultipleWindowHandle5"/>
+      <class name="handlings.MultipleWindowHandle2"/>
+      <class name="handlings.MultipleWindowHandle3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+here 			
+			
