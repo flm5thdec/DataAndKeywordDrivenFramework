@@ -53,6 +53,29 @@ TestNG hiererchy :
   </test> <!-- Test -->
 </suite> <!-- Suite -->
 
+--------------------------------------------------
+Day : 22nd Mar - Saturday
+--------------------------------------------------
 
-here 			
+if Test Data is coming from external source ( .xlsx , .csv , .json etc )
+is driving your test scripts then it is called Data Driven Framework
+
+
+Data Paramterization : 
+
+runing the same script with different sets of test data 
+
+how do you achive Data Paramterization in TestNG ?
+
+using @DataProvider 
+
+
+????????????????????????
+Assignment 
+
+https://www.lambdatest.com/selenium-playground/broken-image
+
+find broken images 
+
+???????????????????????????????????????		
 			

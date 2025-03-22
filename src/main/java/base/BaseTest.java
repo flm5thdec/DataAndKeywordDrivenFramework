@@ -19,8 +19,8 @@ import exceptions.InvalidBrowserException;
 public class BaseTest {
 
 	public WebDriver driver;
-	FileInputStream fis1;
-	Properties configProp;
+	public FileInputStream fis1;
+	public Properties configProp;
 
 	@BeforeTest
 	public void beforeTest() {
