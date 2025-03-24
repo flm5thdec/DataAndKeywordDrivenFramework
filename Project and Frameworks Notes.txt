@@ -79,3 +79,20 @@ find broken images
 
 ???????????????????????????????????????		
 			
+			
+--------------------------------------------------
+Day : 24th Mar - Monday
+--------------------------------------------------			
+
+***********************************
+Keyword driven framework
+***********************************
+
+automation --> conversion of TC's to TS's 
+
+TC Test Cases (steps - 
+TS Test Script ( method - 
+
+In Keyword Driven Framework 
+
+we are going to write a method for each step using some keyword 
